@@ -1,0 +1,7 @@
+parameters:
+#    poznet.ggnotify.example.class: Poznet\GGNotifyBundle\Example
+
+services:
+   poznet.ggnotify.sender:
+        class: Poznet\GGNotifyBundle\Services\Sender
+        arguments: [%ggbot_gg%,%ggbot_login%,%ggbot_pass%,%ggbot_admingg%]

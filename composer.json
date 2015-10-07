@@ -1,0 +1,18 @@
+{
+    "name": "poznet/ggnotify",
+    "description": "Simple GG (Gadu-Gadu) notification bundle for Symfony2 ( boty.gg.pl wrapper )",
+    "homepage": "https://github.com/poznet/GGNotify",
+    "license": "MIT",
+    
+    "require": {
+        "php": ">=5.3" 
+    },
+    "autoload": {         
+          "psr-0": { 
+              "Poznet\\GGNotifyBundle": "src" 
+              }
+         
+         
+    } 
+
+}
