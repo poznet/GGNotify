@@ -6,7 +6,8 @@ Bundle  create  service "poznet.ggnotify.sender"  with method
 
 that  sends  message to admin gg
 
-For xample in controller : 
+For example in controller : 
+
 `$this->get('poznet.ggnotify.sender')->send('my message');`
 
 ###Installation 
