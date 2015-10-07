@@ -3,6 +3,7 @@ Simple GG (Gadu-Gadu) notification bundle for Symfony2 ( boty.gg.pl wrapper )
 
 Bundle  create  service "poznet.ggnotify.sender"  with method  
 `send('msg');`
+
 that  sends  message to admin gg
 
 For xample in controller : 
@@ -17,9 +18,12 @@ To use in=t you need to  have veryfied account on [boty.gg.pl](http://boty.gg.pl
 2. Create following parameters in **paramters.yml**:
 
 ggbot_gg:  (Bot GG Number)
-    ggbot_login: (Bot GG Login) 
-    ggbot_pass: (Bot GG Password) 
-    ggbot_admingg: ( Admin GG ) 
+
+ggbot_login: (Bot GG Login) 
+
+ggbot_pass: (Bot GG Password) 
+
+ggbot_admingg: ( Admin GG ) 
 
 
 ###Possible Problems
