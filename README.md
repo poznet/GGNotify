@@ -1,4 +1,7 @@
 # GGNotify
+
+[![SensioLabsInsight](https://insight.sensiolabs.com/projects/de48c8d6-b00f-4cb9-97c3-da7324e6f971/big.png)](https://insight.sensiolabs.com/projects/de48c8d6-b00f-4cb9-97c3-da7324e6f971)
+
 Simple GG (Gadu-Gadu) notification bundle for Symfony2 ( boty.gg.pl wrapper )  
 
 Bundle  create  service "poznet.ggnotify.sender"  with method  
