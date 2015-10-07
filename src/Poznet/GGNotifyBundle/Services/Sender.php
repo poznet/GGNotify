@@ -30,6 +30,7 @@ class Sender
         $P = new PushConnection($this->gg, $this->login, $this->pass);
         $M->addText($msg);
         $M->setRecipients(array($this->admingg));
+        $P->push($M);
     }
 
 
